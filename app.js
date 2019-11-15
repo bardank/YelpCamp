@@ -18,7 +18,7 @@ var campgroundRoutes = require('./routes/campground'),
 
 
 
-mongoose.connect("mongodb://localhost:27017/yelp_camp", { useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: false} )
+mongoose.connect("mongodb+srv://bardan:bardan@yelpcamp-h2yci.mongodb.net/test?retryWrites=true&w=majoritymongodb+srv://bardan:<password>@yelpcamp-h2yci.mongodb.net/test?retryWrites=true&w=majority", { useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: false} )
 
 
 
